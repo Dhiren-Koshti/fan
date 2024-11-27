@@ -21,6 +21,7 @@ body {
 }
 
 .fan{   
+    /* border: 2px solid black; */
     width: 200px;
     height: 200px;
     display: flex;
@@ -189,4 +190,81 @@ button{
     to{
         transform: rotate(360deg);
     }
+}
+
+@media screen and (max-width: 560px) {
+    
+    .fan{   
+        margin-bottom: 275px;
+    }
+    
+    .switch{
+        width: 255px;
+        height: 50px;
+    }
+
+    button{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .fan{   
+        margin-bottom: 285px;
+    }
+
+    .switch{
+        width: 255px;
+        height: 50px;
+    }
+
+    button{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .fan{   
+        margin-bottom: 295px;
+    }
+
+    .switch{
+        width: 260px;
+        height: 50px;
+    }
+
+    button{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    
+    .fan{   
+        margin-bottom: 305px;
+    }
+
+    .switch{
+        width: 252px;
+        height: 50px;
+    }
+
+    button{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    
+    .fan{   
+        margin-bottom: 310px;
+    }
+
 }
